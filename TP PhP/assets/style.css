@@ -1,0 +1,30 @@
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
+}
+
+#main{
+    margin-top: 14rem;
+}
+
+#title span{
+    display: inline-block;
+    color: white;
+    font-size: 6rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out;
+    text-shadow: 3px 2px 0 black;
+    
+}
+#title span.hover{
+    color: orange;
+    transform: scale(1.4) rotate(7deg);
+}
+body{
+    background-color: burlywood;
+}
+#emptyGalerie{
+    font-size: 2rem;
+}
